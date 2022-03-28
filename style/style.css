@@ -75,6 +75,7 @@ h3 {
     color: #2196F3
 }
 .logo {
+    
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -244,6 +245,10 @@ h3 {
 .staff-div {
     padding-top: 30px;
     padding-bottom: 30px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .staff-list {
     display: flex;
@@ -298,6 +303,8 @@ h3 {
     line-height: 1.7;
     letter-spacing: 0.03em;
 
+    margin-bottom: 9px;
+
 }
 .mail {
     color: rgba(255, 255, 255, 0.6);
@@ -307,9 +314,6 @@ h3 {
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-decoration: none;
-
-    display: inline-block;
-    margin-top: 9px;
 }
 .tel {
    color: rgba(255, 255, 255, 0.6);
@@ -319,8 +323,7 @@ h3 {
    line-height: 1.7;
    letter-spacing: 0.03em;
    text-decoration: none;
-   display: inline-block;
-    }
+}
 
 .button { 
     font-family: inherit;
