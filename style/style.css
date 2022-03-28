@@ -21,6 +21,7 @@ p {
     margin-left: auto;
     /* outline: 2px solid tomato;  */
 
+
 } 
 header {
     border-bottom: 1px solid #EEEEEE;
@@ -28,8 +29,8 @@ header {
 .first {
     display: flex;
     align-items: center;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }  
 .list {
     display: flex;
@@ -74,6 +75,7 @@ h3 {
 .web {
     color: #2196F3
 }
+
 .logo {
     
     font-family: 'Raleway';
@@ -92,11 +94,7 @@ h3 {
     color: #2196F3
 }
 .first-nav {
-    display: block;
-    
-    margin-top: 32px;
-    margin-bottom: 32px;
-    
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -179,6 +177,9 @@ h3 {
 .benefits-list {
     margin-right: 30px;
     width:270px;
+}
+.benefits-list:last-child {
+margin-right: 0;
 }
 .benefits-text {
     font-weight: 400;
@@ -422,4 +423,5 @@ h3 {
 img {
     display: block;
     max-width: 100%;
+   
 }
