@@ -173,11 +173,11 @@ h3 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121; 
-    width:270px;
 
 }
 .benefits-list {
     margin-right: 30px;
+    width:270px;
 }
 .benefits-text {
     font-weight: 400;
@@ -191,7 +191,7 @@ h3 {
 
 .activity {
     background-color: #FFFFFF;
-    padding-top: 94px;
+    
     padding-bottom: 94px;
 }
 
@@ -243,6 +243,7 @@ h3 {
 }
 .staff-div {
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 .staff-list {
     display: flex;
@@ -270,6 +271,10 @@ h3 {
     padding-bottom: 60px;
     
 }
+
+.foot-li:not(:last-child) {
+    margin-bottom: 9px;
+}
 .logo-second {
     font-family: 'Raleway';
     font-weight: 700;
@@ -279,6 +284,7 @@ h3 {
     color: #FFFFFF;
 
     display: inline-block;
+    margin-bottom: 20px;
 }
 .logo-second:hover,
 .logo-second:focus {
@@ -291,8 +297,6 @@ h3 {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-
-    margin-top: 20px;
 
 }
 .mail {
@@ -316,29 +320,13 @@ h3 {
    letter-spacing: 0.03em;
    text-decoration: none;
    display: inline-block;
-   margin-top: 9px;
-}
+    }
 
 .button { 
     font-family: inherit;
 
 }
-.button-first {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    background: #F5F4FA;
-    color: #212121;
-    
-    width: 73px;
-    border: transparent;
-    border-radius: 4px;
-    margin-right: 8px;
-    margin-bottom: 56px;
-}
+
             
 .button-first:focus,
 .button-first:hover {
@@ -384,8 +372,13 @@ h3 {
     width: 128px;
     border: transparent;
     border-radius: 4px;
+}
+.button-li {
+    display: inline-block;
+}
+.button-li:not(:last-child) {
     margin-right: 8px;
-    margin-bottom: 56px;
+
 }
 .examples {
     padding-top: 94px;
@@ -394,17 +387,18 @@ h3 {
 .list-button {
     display: flex;
     justify-content: center;
+    margin-bottom: 56px;
 }
 .example-service {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin-top: -30px;
+    margin-left: -30px;
 }
 .example-img {
-    margin-bottom: 30px;
-}
-.example-img:nth-last-child(-n + 3) {
-    margin-bottom: 0;
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
 }
 .menu-border {
     border-left: 1px solid #EEEEEE;
@@ -420,4 +414,9 @@ h3 {
 
 .contact:last-child {
     margin-right: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
